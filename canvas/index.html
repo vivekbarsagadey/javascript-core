@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p>Before canvas.</p>
+<canvas width="120" height="60"></canvas>
+<p>After canvas.</p>
+<script>
+    var cx = document.querySelector("canvas").getContext("2d");
+    cx.beginPath();
+    cx.moveTo(50, 10);
+    cx.lineTo(10, 70);
+    cx.lineTo(90, 70);
+    cx.fill();
+</script>
+</body>
+</html>
