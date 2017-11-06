@@ -4,7 +4,9 @@ function assert(condition, message) {
     }
 }
 
-function MyArray() {}
+function MyArray() {
+}
+
 MyArray.prototype = new Array();
 var mine = new MyArray();
 mine.push(1, 2, 3);
